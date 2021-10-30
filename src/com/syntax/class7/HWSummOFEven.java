@@ -7,14 +7,19 @@ public class HWSummOFEven {
 		// Calculate sum of all even and all odd numbers from range 1 to 100
 		
 		
-		int sum=0;
-		for (int i=2; i<=100; i+=2) {
+		int Osum=0;
+		int Esum=0;
+		
+		for (int i=1; i<=100; i++) {
 			if (i % 2==0) {
-				sum = sum+i;
+				Esum = Esum+i;
 				
+			}else {
+				Osum+=i;
 			}
 		}
-			System.out.println(" The Sum of all Even numbers up to 100 is "+ sum);	
+			System.out.println(" The Sum of all Even numbers up to 100 is "+ Esum);	
+			System.out.println("The Sum of all Odd numbers up to 100 is "+Osum);
 			
 		
 			
