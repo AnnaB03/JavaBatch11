@@ -18,7 +18,7 @@ public class DataTypes {
 		
 		float  b=1.99f;
 		
-		double b=19.9853697126;  //most popular data type to use for decimal numbers
+		double b1=19.9853697126;  //most popular data type to use for decimal numbers
 		
 		//representing and storing single character
 		
@@ -35,7 +35,8 @@ public class DataTypes {
 		
 		System.out.println(box1);
 		System.out.println("box1");
-		System.out.println(box); //system access only variables that you created
+
+		//System.out.println(box); //system access only variables that you created
 		
 		
 
